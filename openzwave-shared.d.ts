@@ -641,7 +641,7 @@ declare module "openzwave-shared" {
             index: number,
             value: string | boolean | number,
         ): void;
-        setValue(valueId: ZWave.ValueId, value: boolean | number): void;
+        setValue(valueId: ZWave.ValueId, value: string | boolean | number): void;
 
         /**
          * Refresh value from Z-Wave network.
